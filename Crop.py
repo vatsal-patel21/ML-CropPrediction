@@ -7,7 +7,7 @@ Created on Thu Nov 10 17:38:10 2022
 
 import streamlit as st
 import joblib
-import sklearn
+
 def main():
     html_temp = """
     <div style="background-color:lightblue;padding:16px">
