@@ -19,12 +19,12 @@ def main():
     st.markdown(html_temp,unsafe_allow_html=True)
     model = joblib.load("model_joblib_cp")
     
-    f1 = st.text_input("Enter the Tempurature")
+    f1 = st.text_input("Enter the Tempurature (in Celsius)")
     
-    f2 = st.text_input("Enter Humidity")
+    f2 = st.text_input("Enter Humidity (%)")
 
     f3 = st.text_input("Enter ph")
-    f4 = st.text_input("Enter Rainfall")
+    f4 = st.text_input("Enter Rainfall (in mm)")
     
     if st.button("Predict"):
         pred="none"
